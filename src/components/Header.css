@@ -1,110 +1,271 @@
-.nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 14px 16px;
-    gap: 10px;
-
-    position: absolute;
-    width: 100%;
-    height: 96px;
-    left: 0px;
-    top: 0px;
-
-    background: rgba(56, 132, 247, 0.16);
-}
-.content{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-
-    /* width: 80%; */
-    height: 68px;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+.navbar-bg{
+    background-color: rgba(56, 132, 247, 0.16);
 }
 
-
-.left_items{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-
-    /* width: 80%; */
-    height: 68px;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 1;
-}
-.navbar_brand{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 6px 48px 6px 0px;
-
-    /* width: 226px; */
-    height: 68px;
-
-
-/* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-.nav_items{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-
-    /* width: 80%; */
-    height: 36px;
-
-
-/* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 1;
-}
-
-
-
-.flight, .bus,.hotel, .holiday,.visa,.visa-guide,.group-request,.travel,.promotion,.blog {
-    height: 20px;
-
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 400;
+.sort-style{
     font-size: 14px;
-    line-height: 143%;
-    /* identical to box height, or 20px */
-
-    display: flex;
-    align-items: center;
-
-    /* Dark/Main */
-
     color: #000000;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-
+    font-weight: 500;
 }
+
+.reset-stye{
+    color: #3884F7;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.left-shadow{
+    background: #FFFFFF;
+border: 1px solid #F6F6F6;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 6px;
+}
+
+.div-1{
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.price-style{
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.price-styles{
+    font-size: 14px;
+    font-weight: 500;
+    color: #4C4C4C;
+}
+
+.div-2{
+    border-bottom: 1px solid #E0E0E1;
+}
+
+.div-22{
+    border-bottom: 1px solid #E0E0E1;
+}
+
+.range-style{
+    font-size: 12px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.amount-style{
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.div-3{
+    border-top: 1px solid #E0E0E1;
+}
+
+
+.div-4{
+  border: 1 px solid red;
+}
+
+.div-5{
+  width: 24px;
+  height: 24px;
+  background-color: #C4C4C4;
+  opacity: 0.5;
+  margin-top: 5px;
+}
+
+.span-style{
+    font-size: 24px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.right-1{
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.right-2{
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+   
+}
+
+.rights-2{
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    color: white;
+}
+
+.bg-style{
+    background-color:  #3884F7;
+}
+
+.person-1{
+    font-size: 10px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.person-2{
+    font-size: 24px;
+    font-weight: 600;
+    color: #235FD8;
+}
+
+.person-3{
+    font-size: 16px;
+    font-weight: 600;
+    color: #1882FF;
+}
+
+.person-4{
+    font-size: 14px;
+    font-weight: 500;
+    color: #1882FF;
+}
+
+.person-5{
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.person-6{
+    font-size: 14px;
+    font-weight: 500;
+    color: #8E8E93;
+}
+
+.person-7{
+    color: #4C4C4C;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.person-8{
+    color: #000000;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.person-11{
+    color: #3884F7;
+    font-weight: 500;
+    font-size:14px;
+}
+
+.person-111{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+.right-shadow{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+}
+
+.person-12{
+    color: #000000;
+    font-weight: 600;
+    font-size:18px;
+}
+
+.person-13{
+    color: #000000;
+    font-weight: 600;
+    font-size:16px;
+}
+
+.person-14{
+    color: #4C4C4C;
+    font-weight: 400;
+    font-size:14px;
+    position: relative;
+    left:30px;
+    
+}
+
+.name-bg-style{
+    background-color: #BBDDFF;
+    border-radius: 16px;
+    padding: 4px 16px;
+    
+}
+
+.person-15{
+    color: #4C4C4C;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.person-16{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.person-17{
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.person-18{
+    color: #4C4C4C;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.person-19{
+    color: #EF7E46;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.custom-grid-css{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.person-20{
+    color: #4C4C4C;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.styling{
+    position: relative;
+    left: 100px
+}
+
+
+
+
+@media only screen and (max-width: 599px) {
+    .custom-grid-css{
+        display: grid;
+        grid-row-gap: 10px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .styling{
+        position: relative;
+        left: 0px
+    }
+}
+
+
+
+.li-style{
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+ 
+}
+
