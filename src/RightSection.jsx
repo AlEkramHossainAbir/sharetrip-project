@@ -30,7 +30,7 @@ const RightSection = () => {
             <div className=''>
 
 
-                <div className='mb-3 left-shadow rounded-md bg-white'>
+                <div className='mb-1 left-shadow rounded-md bg-white'>
                     <div className='row g-0'>
 
                         <div className='col-3 d-flex flex-wrap py-1 px-3'>
@@ -89,9 +89,9 @@ const RightSection = () => {
 
                 </div>
 
-                <div className='row gx-0 gy-3 left-shadow rounded-md bg-white mt-3'>
+                <div className='row gx-0 gy-3 rounded-md bg-white mt-1'>
 
-                    <div className='col-lg-8 col-md-8 col-sm-12 col-12'>
+                    <div className='col-lg-8 col-md-8 col-sm-12 col-12 left-shadow'>
 
                         <div className=''>
 
@@ -181,7 +181,7 @@ const RightSection = () => {
                             </div>
 
 
-                            <div className='row pe-3 g-2 mt-1'>
+                            <div className='row px-3 g-2 mt-1'>
 
                                 <div className='col-6'>
 
@@ -227,7 +227,7 @@ const RightSection = () => {
 
                             </div>
 
-                            <div className='custom-grid-css grid mt-3 pe-lg-3 p-0'>
+                            <div className='custom-grid-css grid mt-3 px-lg-3 p-0'>
 
                                 <div className='d-flex justify-content-evenly'>
                                     <img src="https://i.ibb.co/kQ9w5pz/Vector-2.png" alt="Vector-2" className='img-fluid' />
