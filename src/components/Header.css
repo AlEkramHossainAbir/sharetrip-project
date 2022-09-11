@@ -1,103 +1,35 @@
 .navbar-bg{
     background-color: rgba(56, 132, 247, 0.16);
 }
-
-.sort-style{
-    font-size: 14px;
-    color: #000000;
-    font-weight: 500;
-}
-
 .reset-stye{
     color: #3884F7;
-    font-size: 16px;
-    font-weight: 500;
 }
-
 .left-shadow{
-    background: #FFFFFF;
-border: 1px solid #F6F6F6;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 6px;
+    border: 1px solid #F6F6F6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
-
 .div-1{
     border-bottom: 1px solid #F5F5F5;
 }
 
-.price-style{
-    font-size: 16px;
-    font-weight: 500;
-    color: #000000;
-}
-
 .price-styles{
-    font-size: 14px;
-    font-weight: 500;
     color: #4C4C4C;
 }
-
 .div-2{
     border-bottom: 1px solid #E0E0E1;
-}
-
-.div-22{
-    border-bottom: 1px solid #E0E0E1;
-}
-
-.range-style{
-    font-size: 12px;
-    font-weight: 400;
-    color: #000000;
-}
-
-.amount-style{
-    font-size: 16px;
-    font-weight: 700;
-    color: #000000;
 }
 
 .div-3{
     border-top: 1px solid #E0E0E1;
 }
 
-
 .div-4{
   border: 1 px solid red;
 }
 
 .div-5{
-  width: 24px;
-  height: 24px;
   background-color: #C4C4C4;
-  opacity: 0.5;
   margin-top: 5px;
-}
-
-.span-style{
-    font-size: 24px;
-    font-weight: 500;
-    color: #000000;
-}
-
-.right-1{
-    font-size: 16px;
-    font-weight: 500;
-    color: #000000;
-}
-
-.right-2{
-    font-size: 14px;
-    font-weight: 400;
-    color: #000000;
-   
-}
-
-.rights-2{
-    font-size: 14px;
-    font-weight: 400;
-    color: #000000;
-    color: white;
 }
 
 .bg-style{
@@ -106,137 +38,68 @@ border-radius: 6px;
 
 .person-1{
     font-size: 10px;
-    font-weight: 600;
-    color: #000000;
 }
 
 .person-2{
-    font-size: 24px;
-    font-weight: 600;
     color: #235FD8;
 }
 
 .person-3{
-    font-size: 16px;
-    font-weight: 600;
     color: #1882FF;
 }
 
 .person-4{
-    font-size: 14px;
-    font-weight: 500;
     color: #1882FF;
 }
 
-.person-5{
-    font-size: 14px;
-    font-weight: 500;
-    color: #FFFFFF;
-}
-
 .person-6{
-    font-size: 14px;
-    font-weight: 500;
     color: #8E8E93;
 }
 
 .person-7{
     color: #4C4C4C;
-    font-size: 14px;
-    font-weight: 500;
-}
-
-.person-8{
-    color: #000000;
-    font-size: 14px;
-    font-weight: 500;
 }
 
 .person-11{
     color: #3884F7;
-    font-weight: 500;
-    font-size:14px;
 }
-
-.person-111{
-    font-size: 14px;
-    font-weight: 500;
-}
-
 
 .right-shadow{
-    background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 6px;
 }
 
-.person-12{
-    color: #000000;
-    font-weight: 600;
-    font-size:18px;
-}
-
-.person-13{
-    color: #000000;
-    font-weight: 600;
-    font-size:16px;
-}
-
 .person-14{
     color: #4C4C4C;
-    font-weight: 400;
-    font-size:14px;
-    position: relative;
     left:30px;
     
 }
 
 .name-bg-style{
     background-color: #BBDDFF;
-    border-radius: 16px;
-    padding: 4px 16px;
     
 }
 
 .person-15{
     color: #4C4C4C;
-    font-size: 12px;
-    font-weight: 400;
 }
 
-.person-16{
-    font-size: 16px;
-    font-weight: 400;
-    color: #000000;
-}
-
-.person-17{
-    font-size: 16px;
-    font-weight: 600;
-    color: #000000;
-}
 
 .person-18{
     color: #4C4C4C;
-    font-size: 14px;
-    font-weight: 400;
 }
 
 .person-19{
     color: #EF7E46;
-    font-size: 14px;
-    font-weight: 500;
+
 }
 
 .custom-grid-css{
-    display: grid;
     grid-template-columns: repeat(5, 1fr);
 }
 
 .person-20{
     color: #4C4C4C;
-    font-size: 14px;
-    font-weight: 500;
 }
 
 .styling{
@@ -246,8 +109,8 @@ border-radius: 6px;
 
 
 
-
-@media only screen and (max-width: 599px) {
+/* @media only screen and (max-width: 599px) {
+    
     .custom-grid-css{
         display: grid;
         grid-row-gap: 10px;
@@ -258,14 +121,21 @@ border-radius: 6px;
         position: relative;
         left: 0px
     }
-}
+} */
 
+@media only screen and (max-width: 1024px) {
+    /* .navbar-bg{
+        background-color: red;
+    } */
+    .custom-grid-css{
+        display: grid;
+        grid-row-gap: 10px;
+        grid-template-columns: repeat(3, 1fr);
+    }
 
-
-.li-style{
-    font-size: 14px;
-    font-weight: 400;
-    color: #000000;
- 
+    .styling{
+        position: relative;
+        left: 0px
+    }
 }
 

@@ -7,47 +7,47 @@ const Header = () => {
     return (
         <div className='mb-3'>
 
-<nav class="navbar navbar-expand-lg navbar-bg  navbar-light py-4">
-  <div class="container">
+<nav className="navbar navbar-expand-lg navbar-bg  navbar-light py-4">
+  <div className="container">
   
    
    <img src="https://i.ibb.co/4PVYbSg/logos.png" alt="logos" />
 
  
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse styling" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active text-dark" aria-current="page" href="#">Flight</a>
+    <div className="collapse navbar-collapse styling" id="navbarSupportedContent">
+      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+        <li className="nav-item">
+          <a className="nav-link active text-dark" aria-current="page" href="/">Flight</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#" style={{color: '#1882FF'}}>Bus</a>
+        <li className="nav-item">
+          <a className="nav-link" href="/" style={{color: '#1882FF'}}>Bus</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link text-dark" href="#">Hotel</a>
+        <li className="nav-item">
+          <a className="nav-link text-dark" href="/">Hotel</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link text-dark" href="#">Holiday</a>
+        <li className="nav-item">
+          <a className="nav-link text-dark" href="/">Holiday</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link text-dark" href="#">Visa</a>
+        <li className="nav-item">
+          <a className="nav-link text-dark" href="/">Visa</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link text-dark" href="#">Visa Guide</a>
+        <li className="nav-item">
+          <a className="nav-link text-dark" href="/">Visa Guide</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link text-dark" href="#">Group Request</a>
+        <li className="nav-item">
+          <a className="nav-link text-dark" href="/">Group Request</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link text-dark" href="#">Travel Advisory</a>
+        <li className="nav-item">
+          <a className="nav-link text-dark" href="/">Travel Advisory</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link text-dark" href="#">Promotions</a>
+        <li className="nav-item">
+          <a className="nav-link text-dark" href="/">Promotions</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link text-dark" href="#">Blog</a>
+        <li className="nav-item">
+          <a className="nav-link text-dark" href="/">Blog</a>
         </li>
         
         
